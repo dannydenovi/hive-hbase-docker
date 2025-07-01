@@ -47,6 +47,10 @@ docker run -d \
   hive-hbase-standalone
 ```
 
+```bash
+docker run -d -p 10000:10000 -p 9090:9090 -p 16010:16010 hive-hbase-standalone
+```
+
 ⸻
 
 ## 🔗 Exposed Services
